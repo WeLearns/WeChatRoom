@@ -1,9 +1,21 @@
 {
     "name": "WeChatRoomServer",
-    "main": "server.js",
+    "version": "1.0.0",
+    "description": "我们的聊天室",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WeLearns/WeChatRoom.git"
+    },
     "dependencies": {
-        "express": "~4.0.0",
-        "mongoose": "~3.6.13",
-        "body-parser": "~1.0.1"
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "nunjucks": "2.4.2",
+        "mime": "1.3.4",
+        "mz": "2.4.0"
     }
 }
