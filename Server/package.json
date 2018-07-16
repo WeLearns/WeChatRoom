@@ -11,6 +11,7 @@
         "url": "https://github.com/WeLearns/WeChatRoom.git"
     },
     "dependencies": {
+        "ws": "1.1.1",
         "koa": "2.0.0",
         "koa-bodyparser": "3.2.0",
         "koa-router": "7.0.0",
